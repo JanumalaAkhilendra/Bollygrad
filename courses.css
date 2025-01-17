@@ -19,7 +19,7 @@ h1 {
 }
 
 header {
-  background: url("assets/IndivialCourses/wide_fullhd_top-10-best-acting-schools-in-europe-background.jpg");
+  background: url("/assets/IndivialCourses/wide_fullhd_top-10-best-acting-schools-in-europe-background.jpg");
   background-repeat: no-repeat;
   background-size: 100vw 45vh;
   color: white;
@@ -40,7 +40,7 @@ header p {
 }
 
 #section1 {
-  background-image: url("assets/sleek-modern-dslr-camera-background_1026950-64609.avif");
+  background-image: url("/assets/sleek-modern-dslr-camera-background_1026950-64609.avif");
   /* Set a specific height */
   height: 130vh;
   /* background-color: black; */
@@ -51,7 +51,7 @@ header p {
 }
 
 #section2 {
-  background-image: url("assets/IndivialCourses/dark.avif");
+  background-image: url("/assets/IndivialCourses/dark.avif");
   /* Set a specific height */
   height: 106vh;
   /* background-color: black; */
@@ -67,7 +67,7 @@ header p {
 }
 
 #section3 {
-  background-image: url("assets/sleek-modern-dslr-camera-background_1026950-64609.avif");
+  background-image: url("/assets/sleek-modern-dslr-camera-background_1026950-64609.avif");
   height: 130vh;
   padding-top: 114px;
   background-attachment: fixed;
@@ -87,7 +87,7 @@ h1 {
 
 
 #section4 {
-  background-image: url("assets/IndivialCourses/dark.avif");
+  background-image: url("/assets/IndivialCourses/dark.avif");
   height: 140vh;
   padding: 2vh;
   /* background-color: black; */
@@ -98,7 +98,7 @@ h1 {
 }
 
 #section5 {
-  background-image: url("assets/sleek-modern-dslr-camera-background_1026950-64609.avif");
+  background-image: url("/assets/sleek-modern-dslr-camera-background_1026950-64609.avif");
   height: 140vh;
   padding: 2vh;
   /* background-color: black; */
@@ -118,7 +118,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  background: url("assets/IndivialCourses/wood2.jpg");
+  background: url("/assets/IndivialCourses/wood2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
@@ -223,7 +223,7 @@ h1 {
 }
 
 .stats .stat-card {
-  background: url("assets/IndivialCourses/wood2.jpg");
+  background: url("/assets/IndivialCourses/wood2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
@@ -348,7 +348,7 @@ footer {
 }
 
 .progress-bar-container {
-  background: url("assets/IndivialCourses/wood2.jpg");
+  background: url("/assets/IndivialCourses/wood2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
@@ -378,7 +378,7 @@ footer {
 }
 
 .requirements {
-  background: url("assets/IndivialCourses/texture3.avif");
+  background: url("/assets/IndivialCourses/texture3.avif");
   border-radius: 10px;
   padding: 10px;
 }
@@ -683,7 +683,7 @@ footer {
 
 
 .gamification {
-  background-image: url("assets/IndivialCourses/texture1.jpg");
+  background-image: url("/assets/IndivialCourses/texture1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
@@ -784,7 +784,7 @@ footer {
 }
 
 .module {
-  background: url("assets/IndivialCourses/texture3.avif");
+  background: url("/assets/IndivialCourses/texture3.avif");
 }
 
 
@@ -797,7 +797,7 @@ footer {
   width: 325px;
   margin: auto;
   text-align: center;
-  background-image: url("assets/IndivialCourses/texture1.jpg");
+  background-image: url("/assets/IndivialCourses/texture1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, .2);
@@ -995,7 +995,7 @@ footer {
   width: 450px;
   padding: 30px;
   border-radius: 5px;
-  background: url("assets/IndivialCourses/texture5.png");
+  background: url("/assets/IndivialCourses/texture5.png");
   position: absolute;
   top: 0;
   box-sizing: border-box;
@@ -1335,7 +1335,7 @@ footer {
   }
 
   .gamification {
-    background-image: url("assets/IndivialCourses/texture1.jpg");
+    background-image: url("/assets/IndivialCourses/texture1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
