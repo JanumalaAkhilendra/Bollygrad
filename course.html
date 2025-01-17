@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Arts Vocational Courses</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background:url(./assets/scenes-video-camera-shooting-by-film-crew-team-production-people-big-studio_1257223-83434.avif);
+      background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Optional: Makes the background fixed while scrolling */
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .course-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .course-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .course-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .course-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .course-card h3 {
+      font-size: 1.5rem;
+      margin: 20px 20px 10px;
+    }
+
+    .course-card p {
+      font-size: 1rem;
+      margin: 0 20px 20px;
+      color: #666;
+    }
+
+    .course-card a {
+      display: inline-block;
+      margin: 0 20px 20px;
+      padding: 10px 20px;
+      background: #2575fc;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .course-card a:hover {
+      background: #6a11cb;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      .course-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Creative Arts Vocational Courses</h1>
+    <p>Unlock your potential in acting, editing, singing, music, and production.</p>
+  </header>
+
+  <div class="container">
+    <div class="course-grid">
+      <!-- Acting Courses -->
+      <div class="course-card">
+        <img src="./assets/courses/acting.jpg" alt="Acting Mastery">
+        <h3>Acting Mastery</h3>
+        <p>Learn the art of acting from industry professionals. Perfect for beginners and advanced learners.</p>
+        <a href="./courses/Acting-mastery.html">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="./assets/courses/FIlm-production.jpg" alt="Anchoring">
+        <h3>Anchoring</h3>
+        <p>Dive deep into character development and emotional authenticity.</p>
+        <a href="./courses/Anchoring.html">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="./assets/courses/FIlm-production.jpg" alt="Theater Arts Course">
+        <h3>Theater Arts</h3>
+        <p>Explore the world of theater and stage performance.</p>
+        <a href="./courses/Theatre-Arts.html">Enroll Now</a>
+      </div>
+
+      <!-- Editing Courses -->
+      <div class="course-card">
+        <img src="./assets/courses/video-editing.jpg" alt="Video Editing Course">
+        <h3>Video Editing Pro</h3>
+        <p>Master video editing tools and techniques to create stunning visuals for films and media.</p>
+        <a href="./courses/Video-Editing.html">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="./assets/courses/video-editing.jpg" alt="Advanced Editing Course">
+        <h3>Advanced Editing</h3>
+        <p>Take your editing skills to the next level with advanced techniques.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="./assets/courses/video-editing.jpg" alt="Graphic Designing">
+        <h3>Grahpic Designing </h3>
+        <p>Learn the art of color correction and grading for cinematic visuals.</p>
+        <a href="./courses/graphic-designing.html">Enroll Now</a>
+      </div>
+
+      <!-- Singing Courses -->
+      <div class="course-card">
+        <img src="./assets/courses/music-production.webp" alt="Singing Course">
+        <h3>Singing</h3>
+        <p>Discover your voice and improve your singing skills with expert vocal coaches.</p>
+        <a href="./courses/Singing.html">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="./assets/courses/music-production.webp" alt="Advanced Singing Course">
+        <h3>Advanced Singing</h3>
+        <p>Refine your vocal techniques and master complex melodies.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="./assets/courses/vocal-training.webp" alt="Songwriting Course">
+        <h3>Songwriting</h3>
+        <p>Learn to write and compose your own songs from scratch.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <!-- Music Courses -->
+      <div class="course-card">
+        <img src="./assets/courses/music-production.webp" alt="Music Production Course">
+        <h3>Music Production</h3>
+        <p>Learn to produce music like a pro with hands-on training in sound design and mixing.</p>
+        <a href="./courses/Music-Production.html">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="./assets/courses/video-editing.jpg" alt="Sound Design Course">
+        <h3>Sound Design</h3>
+        <p>Create immersive soundscapes for films, games, and media.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="./assets/courses/music-production.webp" alt="DJing Course">
+        <h3>DJing</h3>
+        <p>Master the art of mixing and beatmatching to become a professional DJ.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <!-- Production Courses -->
+      <div class="course-card">
+        <img src="https://via.placeholder.com/400x180?text=Film+Production" alt="Film Production Course">
+        <h3>Film Production</h3>
+        <p>Get behind the scenes and learn the essentials of filmmaking and production.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://via.placeholder.com/400x180?text=Documentary+Filmmaking" alt="Documentary Filmmaking Course">
+        <h3>Documentary Filmmaking</h3>
+        <p>Learn to create compelling documentaries that tell powerful stories.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://via.placeholder.com/400x180?text=Short+Film+Production" alt="Short Film Production Course">
+        <h3>Short Film Production</h3>
+        <p>Master the art of creating impactful short films.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <!-- Additional Courses -->
+      <div class="course-card">
+        <img src="https://via.placeholder.com/400x180?text=Voice+Acting" alt="Voice Acting Course">
+        <h3>Voice Acting</h3>
+        <p>Learn to bring characters to life with your voice.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://via.placeholder.com/400x180?text=Screenwriting" alt="Screenwriting Course">
+        <h3>Screenwriting</h3>
+        <p>Write compelling scripts for films and TV shows.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://via.placeholder.com/400x180?text=Music+Theory" alt="Music Theory Course">
+        <h3>Music Theory</h3>
+        <p>Understand the fundamentals of music composition and theory.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://via.placeholder.com/400x180?text=Live+Sound+Engineering" alt="Live Sound Engineering Course">
+        <h3>Live Sound Engineering</h3>
+        <p>Learn to manage sound for live events and concerts.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://via.placeholder.com/400x180?text=Foley+Art" alt="Foley Art Course">
+        <h3>Foley Art</h3>
+        <p>Create sound effects for films and media.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://via.placeholder.com/400x180?text=Animation+Voiceover" alt="Animation Voiceover Course">
+        <h3>Animation Voiceover</h3>
+        <p>Specialize in voice acting for animated characters.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://via.placeholder.com/400x180?text=Music+Marketing" alt="Music Marketing Course">
+        <h3>Music Marketing</h3>
+        <p>Learn to promote and market your music effectively.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://via.placeholder.com/400x180?text=Podcast+Production" alt="Podcast Production Course">
+        <h3>Podcast Production</h3>
+        <p>Create and produce professional-quality podcasts.</p>
+        <a href="#">Enroll Now</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Creative Arts Academy. All rights reserved.</p>
+  </footer>
+</body>
+</html>
